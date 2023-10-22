@@ -1,19 +1,13 @@
 module.exports = {
-  // Встановлює розмір відступів (пробілів) для кожного рівня вкладеності
-  tabWidth: 2,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "proseWrap": "always"
+}
 
-  // Використовувати пробіли замість табуляції для відступів
-  useTabs: false,
-
-  // Встановити максимальну довжину рядка
-  printWidth: 80,
-
-  // Визначити, чи автоматично вставляти символи нового рядка в кінці файлу
-  endOfLine: "auto",
-
-  // Встановити одинарні або подвійні лапки для рядкових літералів
-  singleQuote: true,
-
-  // Додавати коми в кінці останнього елементу в масиві та об'єкті
-  trailingComma: "all",
-};
